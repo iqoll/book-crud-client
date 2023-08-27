@@ -36,7 +36,7 @@ function Books() {
 			<div className='books'>
 				{books.map((book) => (
 					<div className='book' key={book.id}>
-						{book.cover && <img src='{book.cover}' alt='' />}
+						{book.cover && <img src={book.cover} alt='' />}
 						<h2>{book.title}</h2>
 						<p>{book.description}</p>
 						<span>{book.price}</span>
